@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary">#1565C0</color>
+    <color name="blue_dark">#0D47A1</color>
+    <color name="blue_card">#1976D2</color>
+    <color name="green_btn">#4CAF50</color>
+    <color name="green_accent">#69F0AE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="orange_badge">#FF9800</color>
+    <color name="error_red">#FF5252</color>
+    <color name="black">#000000</color>
+    <color name="card_overlay">#331565C0</color>
+</resources>

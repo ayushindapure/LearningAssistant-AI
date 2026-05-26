@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center_horizontal">
+
+        <Space android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome,"
+            android:textColor="@color/white_70"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student!"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Start Learning!"
+            android:textColor="@color/white_70"
+            android:textSize="16sp"
+            android:layout_marginBottom="48dp"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            style="@style/WhiteInput"
+            android:hint="Username"
+            android:inputType="text"
+            android:layout_marginBottom="14dp"
+            android:contentDescription="Username field"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/WhiteInput"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="Password field"/>
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/error_red"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/GreenButton"
+            android:text="Login"
+            android:contentDescription="Login button"/>
+
+        <TextView
+            android:id="@+id/tvNeedAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need an Account?"
+            android:textColor="@color/white_70"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:contentDescription="Go to sign up"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hint: username=student / password=pass123"
+            android:textColor="#66FFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

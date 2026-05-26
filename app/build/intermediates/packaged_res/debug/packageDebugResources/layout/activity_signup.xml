@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_media_rew"
+            android:tint="@color/white"
+            android:contentDescription="Back"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's get you"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setup!"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_white_bg"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:tint="@color/blue_primary"
+                android:padding="16dp"
+                android:contentDescription="Profile picture placeholder"/>
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/etSignupUsername"
+            style="@style/WhiteInput"
+            android:hint="Username"
+            android:inputType="text"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Username"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/WhiteInput"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Email address"/>
+
+        <EditText
+            android:id="@+id/etConfirmEmail"
+            style="@style/WhiteInput"
+            android:hint="Confirm Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Confirm email address"/>
+
+        <EditText
+            android:id="@+id/etSignupPassword"
+            style="@style/WhiteInput"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Password"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            style="@style/WhiteInput"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Confirm password"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            style="@style/WhiteInput"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Phone number"/>
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            style="@style/GreenButton"
+            android:text="Create new Account"
+            android:contentDescription="Create new account button"/>
+
+    </LinearLayout>
+</ScrollView>
