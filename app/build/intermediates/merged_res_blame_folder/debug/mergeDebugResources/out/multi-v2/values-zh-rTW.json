@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.learningapp-mergeDebugResources-30:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.learningapp-mergeDebugResources-35:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/aishwaryaindapure/.gradle/caches/9.0.0/transforms/c8f37b359cd35456593a3044eefc20dc/transformed/core-1.9.0/res/values-zh-rTW/values-zh-rTW.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "7704",
                         "endColumns": "100",
                         "endOffsets": "7800"
+                    }
+                },
+                {
+                    "source": "/Users/aishwaryaindapure/.gradle/caches/9.0.0/transforms/89ca138f8f7f693ea2516d43d01f4fcc/transformed/jetified-zxing-android-embedded-4.3.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "103,104,105,106",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7805,7854,7901,7994",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "7849,7896,7989,8059"
                     }
                 },
                 {

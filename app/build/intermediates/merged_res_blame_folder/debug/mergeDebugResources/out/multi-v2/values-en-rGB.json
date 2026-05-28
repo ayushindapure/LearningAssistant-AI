@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.learningapp-mergeDebugResources-30:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.learningapp-mergeDebugResources-35:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/aishwaryaindapure/.gradle/caches/9.0.0/transforms/c8f37b359cd35456593a3044eefc20dc/transformed/core-1.9.0/res/values-en-rGB/values-en-rGB.xml",

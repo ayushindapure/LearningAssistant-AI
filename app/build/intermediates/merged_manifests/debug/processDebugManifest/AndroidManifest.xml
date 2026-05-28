@@ -9,6 +9,26 @@
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
 
     <permission
         android:name="com.learningapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -56,6 +76,41 @@
         <activity
             android:name="com.learningapp.FlashcardsActivity"
             android:exported="false" />
+
+        <!-- NEW ACTIVITIES -->
+        <activity
+            android:name="com.learningapp.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.learningapp.ShareActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.learningapp.PurchaseActivity"
+            android:exported="false" />
+
+        <!-- FileProvider for sharing QR code -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.learningapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

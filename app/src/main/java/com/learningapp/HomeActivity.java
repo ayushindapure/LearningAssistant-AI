@@ -45,8 +45,6 @@ public class HomeActivity extends AppCompatActivity {
             llList.addView(card);
         }
 
-
-
         // ── AI Study Plan tile ───────────────────────────────────────────────
         View planTile = buildAiTile(inflater,
                 "🗓 AI Study Plan",
@@ -63,6 +61,30 @@ public class HomeActivity extends AppCompatActivity {
         cardsTile.setOnClickListener(v ->
                 startActivity(new Intent(this, FlashcardsActivity.class)));
         llList.addView(cardsTile);
+
+        // ── History tile (NEW) ───────────────────────────────────────────────
+        View historyTile = buildAiTile(inflater,
+                "📜 History",
+                "View your past assessment results");
+        historyTile.setOnClickListener(v ->
+                startActivity(new Intent(this, HistoryActivity.class)));
+        llList.addView(historyTile);
+
+        // ── Share tile (NEW) ─────────────────────────────────────────────────
+        View shareTile = buildAiTile(inflater,
+                "📤 Share Profile",
+                "Generate QR code and share your learning progress");
+        shareTile.setOnClickListener(v ->
+                startActivity(new Intent(this, ShareActivity.class)));
+        llList.addView(shareTile);
+
+        // ── Purchase tile (NEW) ──────────────────────────────────────────────
+        View purchaseTile = buildAiTile(inflater,
+                "💎 Premium",
+                "Unlock all features (mock payment demo)");
+        purchaseTile.setOnClickListener(v ->
+                startActivity(new Intent(this, PurchaseActivity.class)));
+        llList.addView(purchaseTile);
     }
 
     private View buildAiTile(LayoutInflater inflater, String title, String desc) {

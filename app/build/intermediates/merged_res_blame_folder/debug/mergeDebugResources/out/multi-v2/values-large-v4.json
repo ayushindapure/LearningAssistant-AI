@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.learningapp-mergeDebugResources-30:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.learningapp-mergeDebugResources-35:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/Users/aishwaryaindapure/.gradle/caches/9.0.0/transforms/653ebf58adae0b445fcfb9df61c2dde8/transformed/material-1.11.0/res/values-large-v4/values-large-v4.xml",

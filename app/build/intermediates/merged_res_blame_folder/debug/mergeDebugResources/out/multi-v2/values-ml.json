@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.learningapp-mergeDebugResources-30:/values-ml/values-ml.xml",
+            "outputFile": "com.learningapp-mergeDebugResources-35:/values-ml/values-ml.xml",
             "map": [
                 {
                     "source": "/Users/aishwaryaindapure/.gradle/caches/9.0.0/transforms/c8f37b359cd35456593a3044eefc20dc/transformed/core-1.9.0/res/values-ml/values-ml.xml",

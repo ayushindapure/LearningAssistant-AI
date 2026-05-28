@@ -23,6 +23,16 @@ public class ResultsActivity extends AppCompatActivity {
                 .filter(q -> "mcq".equals(q.type) && q.selectedIndex == q.correctIndex).count();
         int pct = total > 0 ? Math.round(correct * 100f / total) : 0;
 
+        // Save to history database (NEW)
+        if (task != null && total > 0) {
+            com.learningapp.database.HistoryEntry entry = new com.learningapp.database.HistoryEntry(
+                    task.topic,
+                    pct,
+                    System.currentTimeMillis()
+            );
+            com.learningapp.database.HistoryDatabase.getInstance(this).historyDao().insert(entry);
+        }
+
         ((TextView) findViewById(R.id.tvScorePercent)).setText(pct + "%");
         ((TextView) findViewById(R.id.tvScoreDetail)).setText(correct + "/" + total + " correct");
 

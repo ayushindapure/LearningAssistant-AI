@@ -24,6 +24,22 @@
         <activity android:name=".ResultsActivity" android:exported="false"/>
         <activity android:name=".StudyPlanActivity" android:exported="false"/>
         <activity android:name=".FlashcardsActivity" android:exported="false"/>
+
+        <!-- NEW ACTIVITIES -->
+        <activity android:name=".HistoryActivity" android:exported="false"/>
+        <activity android:name=".ShareActivity" android:exported="false"/>
+        <activity android:name=".PurchaseActivity" android:exported="false"/>
+
+        <!-- FileProvider for sharing QR code -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
     </application>
 
 </manifest>

@@ -1,78 +1,98 @@
 [
     {
-        "merged": "com.learningapp-debug-32:/drawable_card_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/card_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_task.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_task.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_llm_box_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/llm_box_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_item_history.xml.flat",
+        "source": "com.learningapp-main-39:/layout/item_history.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_btn_green_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/btn_green_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_history.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_history.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_signup.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_signup.xml"
+        "merged": "com.learningapp-debug-37:/drawable_tag_pill_selected_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/tag_pill_selected_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_tag_pill_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/tag_pill_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_item_task_card.xml.flat",
+        "source": "com.learningapp-main-39:/layout/item_task_card.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_study_plan.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_study_plan.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_signup.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_signup.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_item_question_mcq.xml.flat",
-        "source": "com.learningapp-main-34:/layout/item_question_mcq.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_flashcards.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_flashcards.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_item_question_toggle.xml.flat",
-        "source": "com.learningapp-main-34:/layout/item_question_toggle.xml"
+        "merged": "com.learningapp-debug-37:/drawable_btn_green_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/btn_green_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_item_task_card.xml.flat",
-        "source": "com.learningapp-main-34:/layout/item_task_card.xml"
+        "merged": "com.learningapp-debug-37:/drawable_btn_small_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/btn_small_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_circle_white_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/circle_white_bg.xml"
+        "merged": "com.learningapp-debug-37:/xml_filepaths.xml.flat",
+        "source": "com.learningapp-main-39:/xml/filepaths.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_btn_small_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/btn_small_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_purchase.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_purchase.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_login.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_login.xml"
+        "merged": "com.learningapp-debug-37:/drawable_circle_white_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/circle_white_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_results.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_results.xml"
+        "merged": "com.learningapp-debug-37:/drawable_llm_box_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/llm_box_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_tag_pill_selected_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/tag_pill_selected_bg.xml"
+        "merged": "com.learningapp-debug-37:/drawable_card_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/card_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_home.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_home.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_interests.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_interests.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_flashcards.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_flashcards.xml"
+        "merged": "com.learningapp-debug-37:/drawable_tag_pill_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/tag_pill_bg.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/drawable_input_bg.xml.flat",
-        "source": "com.learningapp-main-34:/drawable/input_bg.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_home.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_home.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_interests.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_interests.xml"
+        "merged": "com.learningapp-debug-37:/layout_activity_login.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_login.xml"
     },
     {
-        "merged": "com.learningapp-debug-32:/layout_activity_task.xml.flat",
-        "source": "com.learningapp-main-34:/layout/activity_task.xml"
+        "merged": "com.learningapp-debug-37:/layout_item_question_mcq.xml.flat",
+        "source": "com.learningapp-main-39:/layout/item_question_mcq.xml"
+    },
+    {
+        "merged": "com.learningapp-debug-37:/drawable_input_bg.xml.flat",
+        "source": "com.learningapp-main-39:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.learningapp-debug-37:/layout_activity_share.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_share.xml"
+    },
+    {
+        "merged": "com.learningapp-debug-37:/layout_activity_study_plan.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_study_plan.xml"
+    },
+    {
+        "merged": "com.learningapp-debug-37:/layout_activity_results.xml.flat",
+        "source": "com.learningapp-main-39:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.learningapp-debug-37:/layout_item_question_toggle.xml.flat",
+        "source": "com.learningapp-main-39:/layout/item_question_toggle.xml"
     }
 ]

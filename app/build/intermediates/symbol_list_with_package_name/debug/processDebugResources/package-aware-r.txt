@@ -1318,6 +1318,16 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zxing_framing_rect_height
+attr zxing_framing_rect_width
+attr zxing_possible_result_points
+attr zxing_preview_scaling_strategy
+attr zxing_result_view
+attr zxing_scanner_layout
+attr zxing_use_texture_view
+attr zxing_viewfinder_laser
+attr zxing_viewfinder_laser_visibility
+attr zxing_viewfinder_mask
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -2101,6 +2111,16 @@ color tooltip_background_light
 color white
 color white_30
 color white_70
+color zxing_custom_possible_result_points
+color zxing_custom_result_view
+color zxing_custom_viewfinder_laser
+color zxing_custom_viewfinder_mask
+color zxing_possible_result_points
+color zxing_result_view
+color zxing_status_text
+color zxing_transparent
+color zxing_viewfinder_laser
+color zxing_viewfinder_mask
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3185,12 +3205,14 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnBack
+id btnBuy
 id btnContinue
 id btnCreateAccount
 id btnHint
 id btnLogin
 id btnNext
 id btnRegenerate
+id btnShareImage
 id btnSubmit
 id buttonPanel
 id cache_measures
@@ -3273,9 +3295,12 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCardNumber
 id etConfirmEmail
 id etConfirmPassword
+id etCvv
 id etEmail
+id etExpiry
 id etPassword
 id etPhone
 id etSignupPassword
@@ -3303,6 +3328,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3343,6 +3369,7 @@ id line3
 id linear
 id listMode
 id list_item
+id llHistoryList
 id llLlmBox
 id llQuestions
 id llResults
@@ -3466,6 +3493,7 @@ id progressHint
 id progressPlan
 id progress_circular
 id progress_horizontal
+id qrImageView
 id radio
 id radioGroup
 id ratio
@@ -3595,15 +3623,21 @@ id tvCardsResponse
 id tvCount
 id tvDueBadge
 id tvError
+id tvHistoryDate
+id tvHistoryScore
+id tvHistoryTopic
 id tvLlmPrompt
 id tvLlmResponse
+id tvMockWarning
 id tvNeedAccount
 id tvPlanError
 id tvPlanResponse
+id tvPremiumStatus
 id tvPromptLabel
 id tvQuestion
 id tvScoreDetail
 id tvScorePercent
+id tvShareData
 id tvTaskDesc
 id tvTaskTitle
 id tvToggleLabel
@@ -3632,6 +3666,19 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id zxing_back_button
+id zxing_barcode_scanner
+id zxing_barcode_surface
+id zxing_camera_closed
+id zxing_camera_error
+id zxing_decode
+id zxing_decode_failed
+id zxing_decode_succeeded
+id zxing_possible_result_points
+id zxing_preview_failed
+id zxing_prewiew_size_ready
+id zxing_status_view
+id zxing_viewfinder_view
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3747,10 +3794,13 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_flashcards
+layout activity_history
 layout activity_home
 layout activity_interests
 layout activity_login
+layout activity_purchase
 layout activity_results
+layout activity_share
 layout activity_signup
 layout activity_study_plan
 layout activity_task
@@ -3770,6 +3820,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_history
 layout item_question_mcq
 layout item_question_toggle
 layout item_task_card
@@ -3834,7 +3885,10 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout zxing_barcode_scanner
+layout zxing_capture
 plurals mtrl_badge_content_description
+raw zxing_beep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3866,6 +3920,7 @@ string androidx_startup
 string answered_by_ai
 string api_key
 string app_name
+string app_version
 string appbar_scrolling_view_behavior
 string back
 string bottom_sheet_behavior
@@ -3880,6 +3935,7 @@ string character_counter_pattern
 string clear_text_end_icon_content_description
 string continue_str
 string create_account
+string define_zxingandroidembedded
 string error_a11y_label
 string error_icon_content_description
 string explain_answer
@@ -3893,6 +3949,15 @@ string hide_bottom_view_on_scroll_behavior
 string hint_prefix
 string icon_content_description
 string item_view_role_description
+string library_zxingandroidembedded_author
+string library_zxingandroidembedded_authorWebsite
+string library_zxingandroidembedded_isOpenSource
+string library_zxingandroidembedded_libraryDescription
+string library_zxingandroidembedded_libraryName
+string library_zxingandroidembedded_libraryVersion
+string library_zxingandroidembedded_libraryWebsite
+string library_zxingandroidembedded_licenseId
+string library_zxingandroidembedded_repositoryLink
 string loading
 string login
 string m3_exceed_max_badge_text_suffix
@@ -4015,6 +4080,10 @@ string study_plan
 string submit
 string username
 string your_results
+string zxing_app_name
+string zxing_button_ok
+string zxing_msg_camera_framework_bug
+string zxing_msg_default_status
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5135,6 +5204,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style zxing_CaptureTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5288,3 +5358,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+styleable zxing_camera_preview zxing_framing_rect_height zxing_framing_rect_width zxing_preview_scaling_strategy zxing_use_texture_view
+styleable zxing_finder zxing_possible_result_points zxing_result_view zxing_viewfinder_laser zxing_viewfinder_laser_visibility zxing_viewfinder_mask
+styleable zxing_view zxing_scanner_layout
+xml filepaths
